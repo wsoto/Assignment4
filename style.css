@@ -1,0 +1,137 @@
+body{
+	margin: 0 !important;
+
+}
+
+@font-face {
+   font-family: myFirstFont;
+   url src: "http://fonts.googleapis.com/css?family=Roboto+Condensed";
+}
+
+/*Nav*/
+
+#header{
+margin-top: 30px;	
+background-color: #f48a06;
+height:50px; 
+width: 100%;
+top: 0;
+}
+
+.logo{
+	margin-left: 80px;
+	width: 100px;
+	margin-top: -20px;
+}
+
+.topright{
+	float: right;
+	padding-right: 80px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+	margin-top: 20px;
+
+}
+
+li{
+		list-style: none;
+		display:inline-block;
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 30px;
+		color: white;
+		text-decoration: none;
+		padding-left: 20px;
+	}
+
+	a{
+	color: white;
+	text-decoration: none;
+
+}
+
+h2{
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 50px;
+		color: #f48a06;
+		text-align: left;
+		line-height: 50px;
+
+		
+
+}
+
+p{
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 12px;
+		line-height: 16px;
+		text-align: left;
+
+
+}
+
+	a:hover{
+		color: #870619;
+	}
+
+
+/*container*/
+
+#container{
+	width: 100%;
+	background-color: #FF008D;
+	margin-left: 150px;
+    margin-right: auto;
+	clear: both;
+	text-align: center;
+
+}
+
+.item{
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    width: 300px;
+    height: 300px;
+}
+
+
+
+.offer{
+	width: 750px;
+	height: 400px;
+}
+
+.foodimage{
+  float: right;
+  width:70%;
+  margin-top: -80px;
+}
+.foodinfo{
+  float:left;
+  font-family: Montserrat, arial;
+  font-size: 10px;
+  line-height: 15px;
+  width:30%;
+
+.item:hover{
+		opacity:0.6; 
+		text-align:justify; 
+		color:#000000; 
+		font-size:20px; 
+		font-weight:700; 
+		font-family:'Roboto Condensed', sans-serif;
+		 
+	}
+
+/*footer*/
+
+.footer{
+	font-family:'Roboto Condensed', sans-serif;
+	clear: both;
+	height: 50px;
+	margin: 0 !important;
+	text-align: center;
+
+}
